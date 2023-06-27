@@ -17,9 +17,9 @@ on:
           type: choice
           description: Select a  Name
           required: true
-          options: 
-            - [ BVK , Bompally ]
-            - [ Vineeth , Kumar ]
+          options: [connector-service, Connector Service - PSR.jmx,  ingestionservice, GetOrderSummaryTest.jmx, GetSkipPickTest.jmx, GetWorkHistoryTest.jmx, PostOrderLinesSummaryTest.jmx, PostSkipPicksTest.jmx, PostWorkHistoryTest.jmx,  metrics-service, MetricsServiceTests.jmx,  tour-execution, DeleteTasks.jmx, GetCompletedTasks.jmx, GetTasks.jmx, GetTasksFilter.jmx, PatchTasks.jmx, PostTasks.jmx, PostThenAssignThenRejectTasks.jmx, PostThenCancelTasks.jmx,  work-queue-service, WorkQueue-PSR.jmx,  cost-state-engine, Set Parameters - Cost_request_payload.jmx, 
+                   logistics-robotics-service, CancelTask_E2E_Status.jmx ]
+      
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
